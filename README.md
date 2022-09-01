@@ -6,7 +6,7 @@
 
 ## deploy
 
-To get the deploy version [click]()
+To get the deploy version [click](https://tourmaline-crisp-2b65af.netlify.app/)
 
 ## Getting Started
 
