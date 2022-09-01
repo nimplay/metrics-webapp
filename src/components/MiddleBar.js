@@ -30,8 +30,7 @@ function Header() {
   return (
     <>
       <section className="middle-bar">
-        <h2 className="pokemon-subtitle">Pokemons</h2>
-        <h2 className="pokemon-subtitle">Name or Id</h2>
+        <h3 className="pokemon-subtitle">Pokemons</h3>
         <div className="search">
           <input
             className="search-bar"
