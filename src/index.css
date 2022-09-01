@@ -58,7 +58,9 @@ nav {
   align-items: center;
   justify-content: center;
   background-color: #0554f2;
- /* background-image: url(https://assets.pokemon.com/assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg); */
+
+  /* background-image: url(https://assets.pokemon.com/assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg); */
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
