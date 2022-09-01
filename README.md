@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Microverse-blue)
+
 ![Image text](./src/images/nimplayLogo.jpg)
 
 
@@ -5,11 +7,16 @@
 > This project is the Microverse's Numeric Webapp project. 
 > Its a web application for use react and redux that is a simple app that use an API . 
 
+## Live Version
+watch the live version [Here](https://tourmaline-crisp-2b65af.netlify.app/)
+- 
+- 
+
 ![Image text](./src/images/Mockup.png)
 
-## deploy
+## Explanatory video
 
-To get the deploy version [click](https://tourmaline-crisp-2b65af.netlify.app/)
+To get the deploy version [click](https://www.loom.com/share/7d06a1b2ea654315b75d87c3e3b43cee)
 
 ## Getting Started
 

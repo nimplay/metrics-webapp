@@ -305,16 +305,22 @@ nav {
 }
 
 footer {
+  width: 100%;
+  padding-right: 3rem;
+  background-color: #f2913d;
+  margin-top: 1rem;
+}
+
+.footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  background-color: #f2913d;
   height: 4rem;
   width: 100%;
-  margin-top: 1rem;
   gap: 1rem;
-  padding-right: 3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .footer-text {
