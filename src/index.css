@@ -303,3 +303,30 @@ nav {
     margin-left: 2rem;
   }
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f2913d;
+  height: 4rem;
+  width: 100%;
+  margin-top: 1rem;
+  gap: 1rem;
+  padding-right: 3rem;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: black 3px 3px;
+}
+
+.footer-img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 50%;
+}

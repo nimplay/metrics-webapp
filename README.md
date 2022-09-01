@@ -1,3 +1,6 @@
+![Image text](./src/images/nimplayLogo.jpg)
+
+
 # Numeric Webapp
 > This project is the Microverse's Numeric Webapp project. 
 > Its a web application for use react and redux that is a simple app that use an API . 
