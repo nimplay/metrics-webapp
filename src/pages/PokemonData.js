@@ -32,7 +32,7 @@ function PokemonData() {
       }));
     }
     fetchData();
-  }, []);
+  }, [params.url, params.id, dispatch]);
 
   return (
     <div className="pokemon-data">
