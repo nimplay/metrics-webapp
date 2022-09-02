@@ -1,71 +1,76 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blue)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Image text](./src/images/nimplayLogo.jpg)
 
-## Available Scripts
 
-In the project directory, you can run:
+# Numeric Webapp
+> This project is the Microverse's Numeric Webapp project. 
+> Its a web application for use react and redux that is a simple app that use an API . 
 
-### `npm start`
+## Live Version
+watch the live version [Here](https://tourmaline-crisp-2b65af.netlify.app/)
+- 
+- 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Image text](./src/images/Mockup.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Explanatory video
 
-### `npm test`
+To get the deploy version [click](https://www.loom.com/share/7d06a1b2ea654315b75d87c3e3b43cee)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To access and change the code on your computer (using GIT):
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Note: if you don't use git, you can download the ZIP of this repository by clicking on the "Code" button above the files list.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Setup Open the repository link. Click on the "Code" button, above the files list. Select one of the three options to copy the URL: HTTPS, SSH key and GitHub CLI. Open the Terminal in the directory you want to copy the project. Type git clone, paste the URL you copied, and press enter. Usage To edit this project:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open the repository you cloned with a code editor that you like. Edit the code as you want.
 
-### `npm run eject`
+## Built With
+- Languages: HTML, scss and JavaScript
+- Linters: Stylelint and ESLint
+- Node
+- Gitflow
+- VS Code
+- Webpack
+- React
+- Redux
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy up and running follow these simple example steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+install git, node, any code editor in your local machine
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Setup
+clone the repo from https://github.com/nimplay/metrics-webapp.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Install
+install all dependencies with npm install
 
-## Learn More
+## Authors
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 *Authors*
+Nimrod Acosta
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [nimplay](https://github.com/nimplay)
+- Twitter: [NimrodAcosta](https://twitter.com/NimrodAcosta)
+- LinkedIn: [nimrod-acosta](https://www.linkedin.com/in/nimrod-acosta-734330169/)
 
-### Code Splitting
+  
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
 
-### Analyzing the Bundle Size
+Fork the Project 1.Create your New Feature Branch (git checkout -b name/your/branch). 2.Commit your Changes Dont forget to put you name (git commit -m 'Add some Amazing suggestion'). 3.Push to the Branch (git push origin name/your/branch). 4.Open a Pull Request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Show your support
 
-### Making a Progressive Web App
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgments
 
-### Advanced Configuration
+- [Microverse](https://www.microverse.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# marvel-api
+- Original design idea by [Nelson Sakwa on Behance.](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs))
