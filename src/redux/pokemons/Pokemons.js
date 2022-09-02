@@ -5,7 +5,7 @@ import axios from 'axios';
 const initialState = [];
 
 // Base URL
-const url = 'https://pokeapi.co/api/v2/pokemon/?limit=151';
+const url = 'https://pokeapi.co/api/v2/pokemon/';
 
 // Async Thunk
 export const fetchApi = createAsyncThunk('preview/fetchApi', async () => {

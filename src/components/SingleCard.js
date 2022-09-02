@@ -16,13 +16,13 @@ function SingleCard({ pokemon }) {
 
   return (
     <div className="single-card">
-      <h1 className="card-number">
-        {pokemon.id < 10 ? (`0${pokemon.id}`) : pokemon.id}
-      </h1>
       { pokemon.img ? (<img src={pokemon.img} alt="pokemon" className="single-card-img" />) : (<img src={img} alt="pokeball" className="single-card-img" />)}
       <h2 className="card-name">
         {pokemon.name}
       </h2>
+      <p className="card-number">
+        {pokemon.id < 10 ? (`0${pokemon.id}`) : pokemon.id}
+      </p>
     </div>
   );
 }
