@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,400&family=Montserrat:wght@400;800&family=Roboto+Slab:wght@100;200&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Roboto+Slab:wght@100;200&family=Silkscreen:wght@400;700&display=swap');
 
 body {
-  background-color: #2253b6;
+  background-color: #0554f2;
+  background-image: url(https://wallpapercave.com/wp/wp2595119.jpg);
   color: #fff;
   width: 100%;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .main-continer {
@@ -25,8 +26,9 @@ nav {
   font-size: 1rem;
   padding: 0;
   padding-left: 1.5rem;
-  padding-top: 0.3rem;
+  padding-top: 1rem;
   padding-bottom: 0.5rem;
+  background-color: #056cf2;
 }
 
 .home-btn {
@@ -53,12 +55,12 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #056cf2;
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/misc/virtual-backgrounds/masters/forest.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   width: 100%;
   height: max-content;
-  padding-bottom: 2rem;
-  gap: 2rem;
-  padding-top: 2rem;
 }
 
 .poke-img {
@@ -74,14 +76,17 @@ nav {
   max-width: 40rem;
   font-size: 2rem;
   font-weight: bold;
+  font-family: 'Silkscreen', cursive;
+  text-shadow: black 3px 3px;
 }
 
 .middle-bar {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
   text-align: center;
-  gap: 0.1rem;
-  margin-left: 0.5rem;
+  gap: 1rem;
 }
 
 .search {
@@ -93,15 +98,15 @@ nav {
 }
 
 .search-bar {
-  height: 1rem;
-  width: 10rem;
-  font-size: 1rem;
+  height: 2rem;
+  width: 17rem;
+  font-size: 2rem;
   border-radius: 40px;
-  padding-left: 1rem;
+  padding: 1rem;
 }
 
 .search-ball {
-  width: 2rem;
+  width: 3rem;
   animation: moviment 0.3s infinite alternate steps(30);
 }
 
@@ -110,45 +115,29 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 0.1rem;
+  gap: 0.5rem;
 }
 
-.poke-data:nth-child(1),
-.poke-data:nth-child(4),
-.poke-data:nth-child(5),
-.poke-data:nth-child(8),
-.poke-data:nth-child(9),
-.poke-data:nth-child(12),
-.poke-data:nth-child(13),
-.poke-data:nth-child(16),
-.poke-data:nth-child(17),
-.poke-data:nth-child(20) {
+.poke-data:nth-child(even) {
   display: flex;
-  width: 45%;
+  width: 10rem;
   height: 13rem;
   background-color: #056cf2;
   flex-direction: column;
   align-items: center;
   padding: 0.5rem;
+  border-radius: 20%;
 }
 
-.poke-data:nth-child(2),
-.poke-data:nth-child(3),
-.poke-data:nth-child(6),
-.poke-data:nth-child(7),
-.poke-data:nth-child(10),
-.poke-data:nth-child(11),
-.poke-data:nth-child(14),
-.poke-data:nth-child(15),
-.poke-data:nth-child(18),
-.poke-data:nth-child(19) {
+.poke-data:nth-child(odd) {
   display: flex;
-  width: 45%;
+  width: 10rem;
   height: 13rem;
   background-color: #0554f2;
   flex-direction: column;
   align-items: center;
   padding: 0.5rem;
+  border-radius: 20%;
 }
 
 .poke-data:hover {
@@ -180,6 +169,7 @@ nav {
 
 .single-card-img {
   width: 8rem;
+  background-color: #c6d93b;
   padding: 0.5rem;
   border-radius: 50%;
 }
@@ -189,7 +179,6 @@ nav {
   font-size: 1.3rem;
   text-transform: uppercase;
   margin-top: 0.4rem;
-  align-self: flex-end;
 }
 
 /* Description */
@@ -206,7 +195,8 @@ nav {
 }
 
 .pokemon-subtitle {
-  margin-top: 0.1rem;
+  margin-top: 1rem;
+  text-shadow: black 3px 3px;
 }
 
 .pokemon-name {
@@ -234,22 +224,13 @@ nav {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background-color: #8c1b24;
   margin-top: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.li-description:nth-child(odd) {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 1.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  background-color: #056cf2;
-}
-
-.li-description:nth-child(even) {
+.li-description {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -262,15 +243,16 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  color: black;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  gap: 1rem;
+  gap: 2rem;
+  background-color: #f2913d;
   width: 100%;
   font-size: 1.3rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   margin-top: 1rem;
-  align-items: center;
-  background-color: #056cf2;
 }
 
 .animation {
@@ -283,25 +265,22 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 .moves-list {
   display: flex;
-  flex-direction: column;
-  gap: 0.2rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
   width: 90%;
   margin-bottom: 4rem;
   margin-top: 2rem;
 }
 
-.move:nth-child(odd) {
-  font-weight: bold;
-  background-color: #056cf2;
-  width: 100%;
-}
-
-.move:nth-child(even) {
+.move {
+  padding: 0.5rem;
+  background-color: #f27b35;
+  border-radius: 40%;
   font-weight: bold;
 }
 
